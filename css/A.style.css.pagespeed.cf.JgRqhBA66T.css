@@ -1145,7 +1145,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-    background-image: url(../img/banner/banner.png);
+    background-image: url(../img/banner/home.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
@@ -1261,7 +1261,7 @@ h3 {
 
 .slider_area .single_slider .slider_text h3 {
     font-family: "Monoton", cursive;
-    font-size: 122px;
+    font-size: 80px;
     text-transform: uppercase;
     font-weight: 400;
     color: #fff;
@@ -1273,7 +1273,7 @@ h3 {
 @media (max-width: 767px) {
     /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
     .slider_area .single_slider .slider_text h3 {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1.2;
         margin: 20px 0;
     }
