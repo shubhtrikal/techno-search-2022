@@ -1,0 +1,617 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EventCon</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/xfavicon.png.pagespeed.ic.Pdg1_R-0Cp.webp">
+
+
+    <link rel="stylesheet"
+        href="css/A.bootstrap.min.css+owl.carousel.min.css+magnific-popup.css+font-awesome.min.css+themify-icons.css+gijgo.css+nice-select.css+animate.css+flaticon.css+slicknav.css,Mcc.uoV2inFZw3.css.pagespeed.cf.Mm7h41_zrA.css" />
+    <link rel="stylesheet" href="css/A.style.css.pagespeed.cf.JgRqhBA66T.css">
+
+    <script nonce="7362d0a1-6bb1-4695-bef1-3c9219a98289">
+        (function (w, d) {
+            ! function (a, e, t, r) {
+                a.zarazData = a.zarazData || {};
+                a.zarazData.executed = [];
+                a.zaraz = {
+                    deferred: [],
+                    listeners: []
+                };
+                a.zaraz.q = [];
+                a.zaraz._f = function (e) {
+                    return function () {
+                        var t = Array.prototype.slice.call(arguments);
+                        a.zaraz.q.push({
+                            m: e,
+                            a: t
+                        })
+                    }
+                };
+                for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e);
+                a.zaraz.init = () => {
+                    var t = e.getElementsByTagName(r)[0],
+                        z = e.createElement(r),
+                        n = e.getElementsByTagName("title")[0];
+                    n && (a.zarazData.t = e.getElementsByTagName("title")[0].text);
+                    a.zarazData.x = Math.random();
+                    a.zarazData.w = a.screen.width;
+                    a.zarazData.h = a.screen.height;
+                    a.zarazData.j = a.innerHeight;
+                    a.zarazData.e = a.innerWidth;
+                    a.zarazData.l = a.location.href;
+                    a.zarazData.r = e.referrer;
+                    a.zarazData.k = a.screen.colorDepth;
+                    a.zarazData.n = e.characterSet;
+                    a.zarazData.o = (new Date).getTimezoneOffset();
+                    a.zarazData.q = [];
+                    for (; a.zaraz.q.length;) {
+                        const e = a.zaraz.q.shift();
+                        a.zarazData.q.push(e)
+                    }
+                    z.defer = !0;
+                    for (const e of [localStorage, sessionStorage]) Object.keys(e || {}).filter((a => a.startsWith("_zaraz_"))).forEach((t => {
+                        try {
+                            a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t))
+                        } catch {
+                            a.zarazData["z_" + t.slice(7)] = e.getItem(t)
+                        }
+                    }));
+                    z.referrerPolicy = "origin";
+                    z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData)));
+                    t.parentNode.insertBefore(z, t)
+                };
+                ["complete", "interactive"].includes(e.readyState) ? zaraz.init() : a.addEventListener("DOMContentLoaded", zaraz.init)
+            }(w, d, 0, "script");
+        })(window, document);
+    </script>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/brand/logo.png" width="250px" height="auto"> </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="performer.html">Performer</a></li>
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="about.html">about</a></li>
+                                                    <li><a href="Program.html">Program</a></li>
+                                                    <li><a href="Venue.html">Venue</a></li>
+                                                    <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="buy_tkt">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#">Buy Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center">
+                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <img src="img/shape/shape_1.svg" alt="" data-pagespeed-url-hash="1539116539"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                                <img src="img/shape/shape_2.svg" alt="" data-pagespeed-url-hash="1833616460"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</span>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Concert 2020</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Green Avenue, New York
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="performar_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title mb-80">
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Performer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/x1.png.pagespeed.ic.8nRGRlxyVH.webp" alt=""
+                                        data-pagespeed-url-hash="2502945167"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Mr. Zosoldos</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/x2.png.pagespeed.ic.elDW0ab_gx.webp" alt=""
+                                        data-pagespeed-url-hash="2797445088"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Protik Hasan</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/x3.png.pagespeed.ic.JwkQs5kyuO.webp" alt=""
+                                        data-pagespeed-url-hash="3091945009"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Salmon Vicky</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/x4.png.pagespeed.ic.asI9UrpeK4.webp" alt=""
+                                        data-pagespeed-url-hash="3386444930"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Filaris Habol</h4>
+                                    <span>Acoustic drum</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about_area black_bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section_title text-center mb-80">
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">About Program</h3>
+                        <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">The event regularly
+                            attracts a diverse range of attendees from around the world, across different professions,
+                            and with different.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6">
+                    <div class="about_thumb">
+                        <div class="shap_3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                            <img src="img/shape/shape_3.svg" alt="" data-pagespeed-url-hash="2128116381"
+                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                        <div class="thumb_inner  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                            <img src="img/about/xabout.png.pagespeed.ic.bVW6BJvD-x.webp" alt=""
+                                data-pagespeed-url-hash="1232733362"
+                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="about_info pl-68">
+                        <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">It’s time to book your
+                            seat</h4>
+                        <p class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">The event regularly
+                            attracts a diverse range of attendees from around the world, across different professions,
+                            and with different levels of experience transform your business.</p>
+                        <a href="#" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Buy
+                            Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="program_details_area detials_bg_1 overlay2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80  wow fadeInRight" data-wow-duration="1s"
+                        data-wow-delay=".3s">
+                        <h3>Program Details</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="program_detail_wrap">
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s"
+                                        data-wow-delay=".3s">3.00-4.00pm</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020
+                                    </h4>
+                                </div>
+                                <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/x1.png.pagespeed.ic.bMamsbsoGN.webp" alt=""
+                                        data-pagespeed-url-hash="1490366708"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class="wow fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay=".3s">3.00-4.00pm</span>
+                                    <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020
+                                    </h4>
+                                </div>
+                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/x2.png.pagespeed.ic.gVe2wxEkGK.webp" alt=""
+                                        data-pagespeed-url-hash="1784866629"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s"
+                                        data-wow-delay=".3s">3.00-4.00pm</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020
+                                    </h4>
+                                </div>
+                                <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/x3.png.pagespeed.ic.8hTmknCHoI.webp" alt=""
+                                        data-pagespeed-url-hash="2079366550"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class="wow fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay=".3s">3.00-4.00pm</span>
+                                    <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020
+                                    </h4>
+                                </div>
+                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/program_details/x4.png.pagespeed.ic.G_UsAMaDGQ.webp" alt=""
+                                        data-pagespeed-url-hash="2373866471"
+                                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map_area">
+        <div id="map" style="height: 600px; position: relative; overflow: hidden;">
+        </div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: -25.363,
+                    lng: 131.044
+                };
+                var grayStyles = [{
+                    featureType: "all",
+                    stylers: [{
+                        saturation: -90
+                    },
+                    {
+                        lightness: 50
+                    }
+                    ]
+                },
+                {
+                    elementType: 'labels.text.fill',
+                    stylers: [{
+                        color: '#ccdee9'
+                    }]
+                }
+                ];
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: {
+                        lat: -31.197,
+                        lng: 150.744
+                    },
+                    zoom: 9,
+                    styles: grayStyles,
+                    scrollwheel: false
+                });
+            }
+        </script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap"></script>
+        <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+            <h3>Concert 2020</h3>
+            <div class="info_wrap">
+                <div class="single_info">
+                    <span>Vanue:</span>
+                    <p>26/A, Coontum Avenu New York-2783</p>
+                </div>
+                <div class="single_info">
+                    <span>Phone:</span>
+                    <p>+10 (88) 267 368 283</p>
+                </div>
+                <div class="single_info">
+                    <span>Email:</span>
+                    <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                            data-cfemail="43202c2d3722203703202c2d2026313771736d202c2e">[email&#160;protected]</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="brand_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80">
+                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sponsor Logos</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand_wrap">
+                        <div class="brand_active owl-carousel">
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x1.png.pagespeed.ic.LHe0uGN-9A.webp" alt=""
+                                    data-pagespeed-url-hash="739677680"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x2.png.pagespeed.ic.KLeelSueyC.webp" alt=""
+                                    data-pagespeed-url-hash="1034177601"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x3.png.pagespeed.ic.L0Y_RrX5d_.webp" alt=""
+                                    data-pagespeed-url-hash="1328677522"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x4.png.pagespeed.ic._KabXvN_ps.webp" alt=""
+                                    data-pagespeed-url-hash="1623177443"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x5.png.pagespeed.ic.aFw97iyYHh.webp" alt=""
+                                    data-pagespeed-url-hash="1917677364"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x1.png.pagespeed.ic.LHe0uGN-9A.webp" alt=""
+                                    data-pagespeed-url-hash="739677680"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/x2.png.pagespeed.ic.KLeelSueyC.webp" alt=""
+                                    data-pagespeed-url-hash="1034177601"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="footer_widget">
+                            <div class="address_details text-center">
+                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</h4>
+                                <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Green Avenue, New
+                                    York</h3>
+                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly
+                                    attracts a diverse range of attendees from around the world.</p>
+                                <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay=".6s">Buy Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+
+                            Copyright &copy;
+                            <script data-cfasync="false"
+                                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js+bootstrap.min.js.pagespeed.jc.VqPKjPX3rN.js"></script>
+    <script>
+        eval(mod_pagespeed_L0mWNSTykm);
+    </script>
+    <script>
+        eval(mod_pagespeed_TZ9Ugx6twQ);
+    </script>
+    <script
+        src="js/owl.carousel.min.js+isotope.pkgd.min.js+ajax-form.js+waypoints.min.js+jquery.counterup.min.js.pagespeed.jc.S2NU-biZkA.js"></script>
+    <script>
+        eval(mod_pagespeed_3Q_5M6wpDX);
+    </script>
+    <script>
+        eval(mod_pagespeed_se9qbc2170);
+    </script>
+    <script>
+        eval(mod_pagespeed_DEhImhP1J$);
+    </script>
+    <script>
+        eval(mod_pagespeed_IOc_vI2Ude);
+    </script>
+    <script>
+        eval(mod_pagespeed_ERX39iaHGq);
+    </script>
+    <script
+        src="js/imagesloaded.pkgd.min.js+scrollIt.js+jquery.scrollUp.min.js+wow.min.js.pagespeed.jc.WYvJ7upwau.js"></script>
+    <script>
+        eval(mod_pagespeed_xI9_Hl9q1h);
+    </script>
+    <script>
+        eval(mod_pagespeed_d$kXQMCT68);
+    </script>
+    <script>
+        eval(mod_pagespeed_nbUml4ZXFI);
+    </script>
+    <script>
+        eval(mod_pagespeed_OF07M_wx94);
+    </script>
+    <script src="js/gijgo.min.js"></script>
+    <script
+        src="js/nice-select.min.js+jquery.slicknav.min.js+jquery.magnific-popup.min.js.pagespeed.jc.HgUy_anYPa.js"></script>
+    <script>
+        eval(mod_pagespeed_RLa7eW4tX7);
+    </script>
+    <script>
+        eval(mod_pagespeed_dvzZbrdATg);
+    </script>
+    <script>
+        eval(mod_pagespeed_aaJNsdI0pj);
+    </script>
+    <script src="js/tilt.jquery.js"></script>
+    <script
+        src="js/plugins.js+contact.js+jquery.ajaxchimp.min.js+jquery.form.js+jquery.validate.min.js+mail-script.js+main.js.pagespeed.jc.ZGnNW0me2-.js"></script>
+    <script>
+        eval(mod_pagespeed_iR2a3$4XrZ);
+    </script>
+
+    <script>
+        eval(mod_pagespeed_d4EgQBKlko);
+    </script>
+    <script>
+        eval(mod_pagespeed__N6bOTPbAt);
+    </script>
+    <script>
+        eval(mod_pagespeed_XrDNQYt$_p);
+    </script>
+    <script>
+        eval(mod_pagespeed_UUz59EKlwG);
+    </script>
+    <script>
+        eval(mod_pagespeed_ppxZmKYMsg);
+    </script>
+    <script>
+        eval(mod_pagespeed_Zvp6Q66M7T);
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"74bb6b322ed38b0b","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
