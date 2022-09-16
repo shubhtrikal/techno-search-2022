@@ -7180,7 +7180,8 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="expander"] {
 .slicknav_menu {
     *zoom: 1;
     font-size: 16px;
-    background: #4c4c4c;
+    background: black;
+    opacity: 0.7;
     padding: 5px
 }
 
@@ -7202,7 +7203,7 @@ ul.gj-list-md li.disabled>[data-role="wrapper"]>[data-role="expander"] {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    background-color: #222
+    background-color: black
 }
 
 .slicknav_nav {
