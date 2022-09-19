@@ -9,12 +9,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="img/brand/favicon.ico">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet"
         href="css/A.bootstrap.min.css+owl.carousel.min.css+magnific-popup.css+font-awesome.min.css+themify-icons.css+gijgo.css+nice-select.css+animate.css+flaticon.css+slicknav.css,Mcc.uoV2inFZw3.css.pagespeed.cf.Mm7h41_zrA.css" />
     <link rel="stylesheet" href="css/A.style.css.pagespeed.cf.JgRqhBA66T.css">
-
+    <style>
+        .social-icons {
+            display:flex;
+            flex-direction:column;
+            position: fixed; 
+            z-index: 10;
+            bottom: 5% ;
+        }
+        .icon {
+            background-color: #FF4533;
+            width: 40px;
+            height: 40px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 10px 20px; 
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+        }
+        .icon i{
+            color:white; font-size: 20px;
+        }
+        .icon:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            /* color: #FF4533; */
+        }
+        @media only screen and (max-width: 700px) {
+            .social-icons{
+                display: none;
+            }
+        }
+        .social-icons-footer{
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            display: none;
+        }
+        @media only screen and (max-width: 700px) {
+            .social-icons-footer{
+                display: flex;
+            }
+        }
+        
+    </style>
+    <!-- <link href="css/icon.css" rel="stylesheet" type="text/css" /> -->
     <script nonce="7362d0a1-6bb1-4695-bef1-3c9219a98289">
         (function (w, d) {
             ! function (a, e, t, r) {
@@ -80,6 +126,17 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
+        <div class="social-icons">
+            <div class = "icon">
+                <a href="https://www.facebook.com/technosearchnitbhopal/"><i class="fa fa-facebook fa-lg" ></i></a>
+            </div>
+            <div class = "icon">
+                <a href="https://www.instagram.com/technosearch.nitb/"><i class="fa fa-instagram fa-lg"></i></a>
+            </div>
+            <div class = "icon">
+                <a href="https://www.linkedin.com/school/manitbhopal/"><i class="fa fa-linkedin fa-lg"></i></a>
+            </div>
+        </div>
     <header>
         <div class="header-area ">
 
@@ -513,6 +570,17 @@
                                     success.</p>
                                 <a href="./register.html" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s"
                                     data-wow-delay=".6s">Book Tickets</a>
+                                    <div class="social-icons-footer">
+                                        <div class = "icon">
+                                            <a href="https://www.facebook.com/technosearchnitbhopal/"><i class="fa fa-facebook fa-lg" ></i></a>
+                                        </div>
+                                        <div class = "icon">
+                                            <a href="https://www.instagram.com/technosearch.nitb/"><i class="fa fa-instagram fa-lg"></i></a>
+                                        </div>
+                                        <div class = "icon">
+                                            <a href="https://www.linkedin.com/school/manitbhopal/"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
