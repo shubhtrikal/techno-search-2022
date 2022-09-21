@@ -42,7 +42,7 @@ $(function() {
 
         $.ajax({
             type: "POST",
-            url: 'http://20.204.91.199/register',
+            url: 'https://server.technosearchnitb.com/register',
             data: $form.serialize(),
             success: after_form_submitted,
             dataType: 'json'
